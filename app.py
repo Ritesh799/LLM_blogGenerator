@@ -56,3 +56,8 @@ submit=st.button("Generate")
 ## ---------------------Final response---------------------
 if submit:
     st.write(getLLamaresponse(input_text,no_words,blog_style))
+
+
+##--------------to run -----------------------------------
+
+##python -m streamlit run c:\Users\RITESH\Desktop\venv\conda-meta\app.py
