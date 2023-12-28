@@ -37,7 +37,7 @@ st.set_page_config(page_title="Generate Blogs",
                     layout='centered',
                     initial_sidebar_state='collapsed')
 
-st.header("Generate Blogs 🤖")
+st.header("Generate Blogs ")
 
 input_text=st.text_input("Enter the Blog Topic")
 
@@ -46,10 +46,10 @@ input_text=st.text_input("Enter the Blog Topic")
 col1,col2=st.columns([5,5])
 
 with col1:
-    no_words=st.text_input('No of Words')
+    no_words=st.text_input('Number of Words')
 with col2:
-    blog_style=st.selectbox('Writing the blog for',
-                            ('Researchers','Data Scientist','General People'),index=0)
+    blog_style=st.selectbox('Writing the blog for?',
+                            ('Researcher','Data Scientist','General People'),index=0)
     
 submit=st.button("Generate")
 
