@@ -1,4 +1,4 @@
-# LLM_blogGenerator
+# LLM_blogGenerator -- yet too be completed
 
 LLM_blogGenerator is a Python-based tool that generates blog content using a Language Model.
 
